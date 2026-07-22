@@ -173,3 +173,19 @@ download-academic-paper/
 ## License
 
 MIT — free to use, modify, and share.
+
+---
+
+## Also in this repo: other Claude skills
+
+Ngoài skill `download-academic-paper` ở thư mục gốc, repo còn chứa các skill cá nhân khác (mỗi skill một thư mục con):
+
+| Skill | Mô tả |
+|---|---|
+| `en-academic-writing` | Viết văn bản học thuật tiếng Anh (essay, report, paper, thesis) |
+| `viet-academic-writing` | Viết văn bản học thuật tiếng Việt tự nhiên, tránh dấu hiệu AI |
+| `qml-hazard-research` | Nghiên cứu Quantum ML cho dự báo thiên tai, kèm giao thức chống trích dẫn sai |
+| `research-direction-prototyping` | Biến ý tưởng hướng nghiên cứu thành kế hoạch kiểm chứng bằng code |
+| `self-study-bilingual-en-viet` | Dựng tài liệu tự học song ngữ Anh-Việt từ slide PDF |
+
+Cài đặt: copy thư mục skill vào `~/.claude/skills/` (global) hoặc `.claude/skills/` (project).
